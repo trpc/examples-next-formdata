@@ -2,6 +2,8 @@
 
 This example showcases how to use tRPC with `FormData`.
 
+It relies on using `zod-form-data` (see `./src/utils/schemas.ts`) and `splitLink` in `./src/utils/trpc.ts` to handle `FormData` requests.
+
 ## Setup
 
 ```bash
