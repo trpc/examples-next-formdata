@@ -2,7 +2,7 @@
 
 This example showcases how to use tRPC with `FormData`.
 
-It relies on the latest `canary` version of tRPC, using `zod-form-data` (see `./src/utils/schemas.ts`) and `splitLink` in `./src/utils/trpc.ts` to handle `FormData` requests.
+It requires tRPC v11+, using `zod-form-data` (see `./src/utils/schemas.ts`) and `splitLink` in `./src/utils/trpc.ts` to handle `FormData` requests.
 
 ## Setup
 
